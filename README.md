@@ -9,9 +9,9 @@
 
 ## Tredeaux Laravel Site
 
-###Start the site
+### Start the site
 
-####Run with Docker (Sail)
+#### Run with Docker (Sail)
 
 - alias sail='[ -f sail ] && bash sail || bash vendor/bin/sail'
 - sail up -d
