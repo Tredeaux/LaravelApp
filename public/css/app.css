@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Montserrat:wght@400;500;800&display=swap');
+
+* {
+    background-color: #212529;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+body {
+    background-color:#212529;
+}
+
+.fancy_border {
+    border: 20px solid transparent;
+    padding: 15px;
+    border-image: url(https://st.depositphotos.com/2200898/3942/v/950/depositphotos_39426109-stock-illustration-seamless-flower-pattern-background.jpg) 30 round;
+}
+
+.fancy_border_narrow {
+    border: 5px solid transparent;
+    padding: 15px;
+    border-image: url(https://st.depositphotos.com/2200898/3942/v/950/depositphotos_39426109-stock-illustration-seamless-flower-pattern-background.jpg) 30 round;
+}
+
+.grid-card {
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.356);
+    margin:auto;
+    height:350px;
+    border:2px solid grey;
+    padding:5px;
+    transition: all 300ms ease-in-out;
+}
+
+.grid-card:hover {
+    border:2px solid lightgrey;
+    border-bottom: 10px solid lightgrey;
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.card {
+    width:500px;
+    padding:40px;
+    margin:auto;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.356);
+    background-color: #212529;
+}
+
+.form-control {
+    background-color: #212529;
+    color:white;
+}
+
+.form-control:Focus {
+    background-color: #212529;
+    color:white;
+}
+
+.chart-block {
+    width:90%;
+    height:100%;
+}
+
+.muted {
+    color: lightgrey;
+}
+
+.muted-more {
+    color: grey;
+}
+
+.alert {
+    width:500px;
+    margin:auto;
+}
