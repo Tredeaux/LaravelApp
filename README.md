@@ -13,13 +13,13 @@
 
 #### Run with Docker (Sail)
 
+- composer install
 - alias sail='[ -f sail ] && bash sail || bash vendor/bin/sail'
 - sail up -d
 - sail artisan migrate
 - sail artisan db:seed
 - http://0.0.0.0:80
 
-![]()
 
 ## License
 
